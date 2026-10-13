@@ -1,0 +1,102 @@
+
+body {
+  background-color: #f4f1eb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #222222;
+}
+
+p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.painting {
+  position: relative;
+  width: 240px;
+  height: 360px;
+  background-color: #f2f0e8;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.painting div {
+  position: absolute;
+}
+
+.red {
+  background-color: #b94b48;
+  width: 132px;
+  height: 36px;
+  top: 0;
+  left: 108px;
+}
+
+.blue {
+  background-color: #294b78;
+  width: 100px;
+  height: 145px;
+  top: 75px;
+  left: 0;
+}
+
+.gray {
+  background-color: #c5c9c8;
+  width: 132px;
+  height: 180px;
+  top: 44px;
+  left: 108px;
+}
+
+.line1 {
+  background-color: #181818;
+  width: 8px;
+  height: 360px;
+  top: 0;
+  left: 100px;
+}
+
+.line2 {
+  background-color: #181818;
+  width: 240px;
+  height: 8px;
+  top: 36px;
+  left: 0;
+}
+
+.line3 {
+  background-color: #181818;
+  width: 100px;
+  height: 8px;
+  top: 67px;
+  left: 0;
+}
+
+.line4 {
+  background-color: #181818;
+  width: 240px;
+  height: 8px;
+  top: 220px;
+  left: 0;
+}
+
+.black {
+  background-color: #181818;
+  width: 92px;
+  height: 32px;
+  top: 328px;
+  left: 108px;
+}
+
+.yellow {
+  background-color: #d5b94d;
+  width: 32px;
+  height: 32px;
+  top: 328px;
+  left: 208px;
+}
