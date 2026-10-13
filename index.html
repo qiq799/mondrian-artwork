@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +8,33 @@
 </head>
 
 <body>
+  <main>
+    <p class="label">RECREATE AN ARTWORK</p>
+    <h1>Lines, Colors & Light</h1>
+    <p class="intro">Inspired by Piet Mondrian</p>
 
-  <h1>Recreate an Artwork</h1>
-  <p>Piet Mondrian / 1921</p>
+    <div class="painting" aria-label="A composition of colored rectangles and black lines">
+      <div class="block white-top"></div>
+      <div class="block red"></div>
 
-  <div class="painting">
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="gray"></div>
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
-    <div class="line4"></div>
-    <div class="black"></div>
-    <div class="yellow"></div>
-  </div>
+      <button class="block blue" aria-label="Light up the blue block"></button>
 
-  <p>Made with HTML and CSS</p>
+      <div class="block gray"></div>
+      <div class="block white-middle"></div>
+      <div class="block white-bottom"></div>
+      <div class="block black"></div>
+      <div class="block yellow"></div>
 
+      <div class="line vertical"></div>
+      <div class="line horizontal-top"></div>
+      <div class="line horizontal-middle"></div>
+      <div class="line horizontal-bottom"></div>
+    </div>
+
+    <p class="hint">Hover or click the blue block to bring it to life.</p>
+    <p class="credit">
+      Based on Composition with Red, Blue, Black, Yellow, and Gray, 1921.
+    </p>
+  </main>
 </body>
 </html>
