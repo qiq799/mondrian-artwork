@@ -39,3 +39,9 @@ footer { margin-top: 42px; font-size: 10px; letter-spacing: 2px; color: #797a72;
 .emoji { display: none; position: absolute; font-size: clamp(28px, 5vw, 52px); line-height: 1; transform: translate(-50%, -50%); pointer-events: none; }
 .emoji.visible { display: block; }
 .stickers button.active { background: #e2e9df; border-color: #71866a; }
+
+/* Introduction to the original painting. */
+.about-original { margin-top: 30px; padding-top: 24px; border-top: 1px solid #d8d2c8; }
+.about-original h2 { margin: 0 0 14px; font: normal 26px Georgia, serif; }
+.about-original p { margin: 0; max-width: 65ch; font-size: 16px; line-height: 1.8; color: #55584e; }
+.about-original a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
