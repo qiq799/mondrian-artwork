@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sticker Study</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header><h1>Make it yours</h1></header>
+  <main>
+    <aside>
+      <div class="stickers">
+        <button data-sticker="sticker0" aria-label="Blossom" aria-pressed="false">🌸</button>
+        <button data-sticker="sticker1" aria-label="Lotus" aria-pressed="false">🪷</button>
+        <button data-sticker="sticker2" aria-label="Fan" aria-pressed="false">🪭</button>
+        <button data-sticker="sticker3" aria-label="Lantern" aria-pressed="false">🏮</button>
+        <button data-sticker="sticker4" aria-label="Bamboo" aria-pressed="false">🎋</button>
+        <button data-sticker="sticker5" aria-label="Cloud" aria-pressed="false">☁️</button>
+        <button data-sticker="sticker6" aria-label="Butterfly" aria-pressed="false">🦋</button>
+        <button data-sticker="sticker7" aria-label="Fish" aria-pressed="false">🐟</button>
+        <button data-sticker="sticker8" aria-label="Ribbon" aria-pressed="false">🎀</button>
+        <button data-sticker="sticker9" aria-label="Moon" aria-pressed="false">🌙</button>
+        <button data-sticker="sticker10" aria-label="Sparkles" aria-pressed="false">✨</button>
+        <button data-sticker="sticker11" aria-label="Flower" aria-pressed="false">🌼</button>
+      </div>
+    </aside>
+    <section class="workspace" aria-label="Collage workspace">
+      <div class="artwork" id="artwork" aria-label="Artwork with emoji stickers">
+        <div class="blocks" aria-hidden="true">
+          <div class="red"></div><div class="yellow"></div><div class="cream"></div><div class="blue"></div><div class="blue small"></div><div class="yellow bottom"></div><div class="cream last"></div>
+        </div>
+        <span class="emoji" id="sticker0" style="left:22%;top:19%" aria-hidden="true">🌸</span>
+        <span class="emoji" id="sticker1" style="left:18%;top:67%" aria-hidden="true">🪷</span>
+        <span class="emoji" id="sticker2" style="left:76%;top:80%" aria-hidden="true">🪭</span>
+        <span class="emoji" id="sticker3" style="left:86%;top:20%" aria-hidden="true">🏮</span>
+        <span class="emoji" id="sticker4" style="left:12%;top:42%" aria-hidden="true">🎋</span>
+        <span class="emoji" id="sticker5" style="left:62%;top:16%" aria-hidden="true">☁️</span>
+        <span class="emoji" id="sticker6" style="left:47%;top:46%" aria-hidden="true">🦋</span>
+        <span class="emoji" id="sticker7" style="left:78%;top:52%" aria-hidden="true">🐟</span>
+        <span class="emoji" id="sticker8" style="left:38%;top:82%" aria-hidden="true">🎀</span>
+        <span class="emoji" id="sticker9" style="left:86%;top:40%" aria-hidden="true">🌙</span>
+        <span class="emoji" id="sticker10" style="left:56%;top:66%" aria-hidden="true">✨</span>
+        <span class="emoji" id="sticker11" style="left:40%;top:30%" aria-hidden="true">🌼</span>
+      </div>
+      <nav aria-label="Color palettes">
+        <button id="original" class="active" aria-pressed="true"><i class="swatches original"></i>Original</button>
+        <button id="pink" aria-pressed="false"><i class="swatches pink"></i>Pink &amp; Green</button>
+      </nav>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
